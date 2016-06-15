@@ -17,7 +17,7 @@ class musiXmatch
         curl_setopt($this->ch, CURLOPT_CONNECTTIMEOUT, 10);
         curl_setopt($this->ch, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($this->ch, CURLOPT_TIMEOUT, 60);
-        curl_setopt($this->ch, CURLOPT_USERAGENT, "musicxmatch-php-0.0.1");
+        curl_setopt($this->ch, CURLOPT_USERAGENT, "musicxmatch php");
     }
 
     /**
